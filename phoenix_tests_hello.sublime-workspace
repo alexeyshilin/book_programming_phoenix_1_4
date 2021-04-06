@@ -1,0 +1,534 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"var",
+				"var_export"
+			],
+			[
+				"payment",
+				"payment_id"
+			],
+			[
+				"ca",
+				"catch"
+			],
+			[
+				"va",
+				"var_export"
+			],
+			[
+				"pars",
+				"parseInt"
+			],
+			[
+				"f",
+				"format"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"json",
+				"json_decode"
+			],
+			[
+				"g",
+				"gzip"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 72.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: Lorem ipsum"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 153.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/var/projects/erlang/elixir/phoenix_tests/hello"
+	],
+	"file_history":
+	[
+		"/usr/local/share/libs/elixir-1.11.4/Makefile.patch.txt",
+		"/home/ashilin/Downloads/obeduzhin.com.test/obeduzhin.nomenclature.20210319.004.txt",
+		"/home/ashilin/Downloads/obeduzhin.com.test/obeduzhin.nomenclature.20210319.005.txt",
+		"/home/ashilin/Downloads/obeduzhin.com.test/obeduzhin.nomenclature.20210319.002.txt",
+		"/home/ashilin/Downloads/obeduzhin.com.test/obeduzhin.nomenclature.20210319.003.txt",
+		"/home/ashilin/Downloads/obeduzhin.com.test/obeduzhin.nomenclature.20210319.014.txt",
+		"/var/ssh/dev_mk1/info.txt",
+		"/run/media/ashilin/394AEF55039AB4AB/info/passport.txt",
+		"/run/media/ashilin/394AEF55039AB4AB/info/elixir.txt",
+		"/home/ashilin/Downloads/iiko/IikoDelivery.php",
+		"/home/ashilin/obeduzhin.nomenclature.20210220.003.txt",
+		"/home/ashilin/obeduzhin.nomenclature.20210220.001.txt",
+		"/home/ashilin/obeduzhin.nomenclature.20210220.002.txt",
+		"/run/media/ashilin/394AEF55039AB4AB/info/hosting/inplat/ypg.txt",
+		"/run/media/ashilin/394AEF55039AB4AB/info/hosting/inplat/inplat.txt",
+		"/run/media/ashilin/394AEF55039AB4AB/info/inplat.txt",
+		"/run/media/ashilin/394AEF55039AB4AB/info/apartment_renovation_checklist.txt",
+		"/var/ssh/dev_mk1/mk.1.db/versions/funcs/paym.paym_3close-000076.sql",
+		"/run/media/ashilin/394AEF55039AB4AB/temp/subscribe.goods.interval.20210211.001.txt",
+		"/run/media/ashilin/394AEF55039AB4AB/info/address.txt",
+		"/var/ssh/dev_mk1/mk.1.db/versions/funcs/sys-000074.sql",
+		"/var/ssh/dev_mk1/mk.1.db/versions/funcs/sys-000074.down.sql",
+		"/var/ssh/dev_mk1/mk.1.db/versions/funcs/paym.adm_yotapg_fix_paym_id_and_reset_error-000075.sql",
+		"/var/ssh/dev_mk1/mk.1.db/versions/funcs/paym.adm_yotapg_move_cancel_to_auth_ready-000075.sql",
+		"/var/ssh/dev_mk1/db.subscribe/versions/funcs/subscr.auth-000001.sql",
+		"/var/ssh/dev_mk1/db.subscribe/versions/funcs/subscr.mc_result_cancel-000001.sql",
+		"/var/ssh/dev_mk1/db.subscribe/versions/funcs/subscr.mc_result_auth-000001.sql",
+		"/var/ssh/dev_mk1/db.subscribe/versions/funcs/subscr.mc_init-000001.sql",
+		"/var/ssh/dev_mk1/db.subscribe/versions/funcs/subscr.init-000001.sql",
+		"/var/ssh/dev_mk1/db.subscribe/versions/funcs/subscr.get_next_write_off-000001.sql",
+		"/var/ssh/dev_mk1/db.subscribe/versions/funcs/subscr.cancel-000001.sql",
+		"/var/projects/inplat/000/mk.1.db/versions/funcs/paym.refund_0init-000016.sql",
+		"/var/projects/inplat/000/mk.1.db/versions/funcs/paym.refund_0init-000018.sql",
+		"/var/projects/test.mk/test.requests.demo.php",
+		"/var/ssh/dev_mk1/000/mk.1.db/versions/funcs/paym.refund_0init-000024.sql",
+		"/var/ssh/dev_mk1/mk.1.db/versions/funcs/paym.refund_0init-000029.sql",
+		"/var/ssh/dev_mk1/mk.1.db/versions/funcs/paym.refund_check-000028.sql",
+		"/var/ssh/dev_mk1/mk.1.db/versions/funcs/paym.refund_check-000001.sql",
+		"/var/ssh/dev_mk1/mk.1.db/versions/funcs/paym.refund_0init-000024.sql",
+		"/tmp/.X0-lock",
+		"/var/ssh/dev_mk1/mk.1.db/versions/funcs/paym.refund_0init-000001.sql",
+		"/var/ssh/dev_mk1/inplat.server/scripts/application/config/http.ini",
+		"/var/ssh/dev_mk1/inplat.operator/scripts/library/dsr/operator/yota/http/Manager.php",
+		"/home/ashilin/Downloads/.~lock.Элетктронный кошелек МТС Деньги.docx#",
+		"/var/ssh/dev_mk1/inplat.server/scripts/library/dsr/server/sms/db/Manager.php",
+		"/run/media/ashilin/394AEF55039AB4AB/info/x-fedora.txt",
+		"/var/ssh/dev_mk1/ru.inplat.fmobi-srv-demo-operator/vendor/symfony/twig-bridge/Tests/Fixtures/extractor/syntax_error.twig",
+		"/home/ashilin/Downloads/Learning Concurrency in Python (2017)/info.txt",
+		"/var/ssh/dev_mk1/inplat.server/scripts/application/package/operator/Controller.php.orig",
+		"/run/media/ashilin/9C3036163035F83A/info/git.txt",
+		"/var/ssh/dev_mk1/inplat.operator/scripts/application/config/http.ini",
+		"/var/ssh/dev_mk1/inplat.subscribe/scripts/application/config/http.ini",
+		"/var/ssh/dev_mk1/test.php",
+		"/var/ssh/dev_mk1/inplat.operator/scripts/index.php",
+		"/var/ssh/dev_mk1/inplat.merchant/scripts/application/package/merchant/Controller.php",
+		"/var/ssh/dev_mk1/inplat.operator/scripts/application/package/tinkoff/Controller.php",
+		"/home/ashilin/Downloads/books.20171206/Real-Time Web Application Development (2017)/info.txt",
+		"/var/ssh/dev_mk1/inplat.Losfw/Data/eNum.php",
+		"/var/ssh/dev_mk1/inplat.operator/scripts/application/package/inplat_refill/Controller.php",
+		"/var/ssh/dev_mk1/inplat.server/scripts/library/dsr/server/merchant/db/Manager.php",
+		"/var/projects/test.queue.p/composer.json",
+		"/var/projects/test.queue.p/OperatorClientStateService.php",
+		"/var/projects/test.queue.p/index.php",
+		"/var/projects/inplat/mk.1.db.new2/versions/000009#antifraud_for_mgf.py",
+		"/var/projects/inplat/mk.1.db.new2/versions/000011#admin_reject.py",
+		"/run/media/ashilin/9C3036163035F83A/info/x-info.txt",
+		"/var/projects/resistance/common/Game.coffee",
+		"/var/projects/resistance/common/Game.js",
+		"/home/ashilin/Downloads/Идеальная архитектура. Ведущие специалисты о красоте программных архитектур (2010)/info.txt",
+		"/home/ashilin/Downloads/Сам себе MBA. Самообразование на 100 % (2012)/info.txt",
+		"/run/media/ashilin/9C3036163035F83A/temp/mfo.hanging_payment.20171228.001.txt",
+		"/home/ashilin/Downloads/books.20171225/Build Better Chatbots (2017)/info.txt",
+		"/home/ashilin/Downloads/books.20171225/Beginning Xamarin Development for the Mac (2018)/info.txt",
+		"/home/ashilin/Downloads/books.20171225/Mastering Bitcoin, 2nd Edition (2017)/info.txt",
+		"/home/ashilin/Downloads/books.20171225/Decentralized Applications (2016)/info.txt",
+		"/home/ashilin/Documents/scoring.20171222.001.txt.csv",
+		"/run/media/ashilin/9C3036163035F83A/info/hosting/inplat/git/passphrase.txt",
+		"/home/ashilin/Downloads/books.20171206/Windows 10 Development with XAML and C# 7, 2nd Edition (2018)/info.txt",
+		"/home/ashilin/Downloads/books.20171206/Multiplayer Game Development with HTML5\n(2015)/info.txt",
+		"/home/ashilin/Downloads/books.20171206/HTML5 Game Development by Example Beginner’s Guide, Second Edition\n(2015)/info.txt",
+		"/home/ashilin/Downloads/books.20171206/Cross Over to HTML5 Game Development (2018)/info.txt",
+		"/run/media/ashilin/9C3036163035F83A/info/hosting/engarant.ru.txt",
+		"/home/ashilin/Downloads/books.20171123/Make Your Own Python Text Adventure (2018)/info.txt",
+		"/var/projects/inplat/kannel_php/src/KannelPhpControllerProvider.php",
+		"/home/ashilin/Downloads/books.20171123/Pro C# 7, 8th Edition (2017)/info.txt",
+		"/var/ssh/dev_mk1/inplat.operator/scripts/library/dsr/operator/operator/soap/Manager.php",
+		"/var/ssh/dev_mk1/inplat.operator/scripts/application/package/server/Controller.php",
+		"/var/ssh/dev_mk1/inplat.server/scripts/library/dsr/server/traits/http/Manager.php",
+		"/var/ssh/dev_mk1/inplat.server/scripts/application/package/merchant/Controller.php",
+		"/var/ssh/dev_mk1/inplat.server/scripts/application/package/partner/Controller.php",
+		"/var/ssh/dev_mk1/inplat.subscribe/scripts/application/package/stub_casper/Controller.php",
+		"/var/ssh/dev_mk1/inplat.operator/scripts/library/dsr/operator/server/http/Manager.php",
+		"/var/ssh/dev_mk1/inplat.SLL/validate/Manager.php",
+		"/var/ssh/dev_mk1/inplat.operator/scripts/application/package/vasmedia/Controller.php",
+		"/var/ssh/dev_mk1/inplat.server/scripts/application/config/common.ini",
+		"/var/ssh/dev_mk1/inplat.server/scripts/application/config/default.ini",
+		"/var/ssh/dev_mk1/inplat.server/scripts/application/package/smartpay/SmartPayPrototype.php",
+		"/var/ssh/dev_mk1/inplat.subscribe/scripts/application/package/stub_refill/Controller.php",
+		"/home/ashilin/Downloads/books.20171109/Идеальная архитектура. Ведущие специалисты о красоте программных архитектур (2010)/info.txt",
+		"/var/ssh/dev_mk1/inplat.subscribe/scripts/application/package/observer/Controller.php",
+		"/run/media/ashilin/9C3036163035F83A/info/postgresql.txt",
+		"/var/projects/inplat/mk.1.db.new2/versions/000010#repeatable_rejects.py",
+		"/var/ssh/eg/protected/pages/InnerItemExternal.page",
+		"/var/ssh/eg/protected/pages/InnerItemExternal.php",
+		"/var/ssh/eg/protected/pages/MasterControlMain.tpl",
+		"/var/ssh/eg/protected/pages/MasterControlMainNew.tpl",
+		"/var/ssh/eg/protected/pages/Home.php",
+		"/var/ssh/eg/protected/pages/Home.page",
+		"/var/ssh/eg/protected/pages/Icons.tpl",
+		"/var/ssh/eg/protected/application.xml",
+		"/var/ssh/eg/protected/pages/IndexMainPanel.tpl",
+		"/var/ssh/eg-prod/engarant.ru/www/protected/pages/IndexMainPanel.tpl",
+		"/var/ssh/eg/pages/_common.php",
+		"/var/projects/vmp1test/config.py",
+		"/home/ashilin/Downloads/books.20170620/The Python 3 Standard Library by Example (2017)/info.txt",
+		"/var/projects/inplat/mk.1.db/versions/000028_refund_2cancel.py",
+		"/var/projects/inplat/mk.1.db/versions/000027_refund_0init_answ.py",
+		"/var/ssh/dev_mk1/test/test.php",
+		"/run/media/ashilin/9C3036163035F83A/temp/mfo.mc.task.20170728.001.txt",
+		"/var/ssh/eg-prod/engarant.ru/www/protected/pages/PayPlasticCardSberbank.page",
+		"/var/ssh/eg/protected/pages/PayPlasticCardSberbank.page",
+		"/var/projects/inplat/mk.1.db/sql/paym.antifraud_hold-000003.sql",
+		"/run/media/ashilin/9C3036163035F83A/temp/credit.stat.20170929.001.sql",
+		"/run/media/ashilin/9C3036163035F83A/temp/credit.stat.20170926.001.sql",
+		"/var/projects/inplat/mk.1.db/sql/paym.antifraud_auth-000003.sql",
+		"/var/projects/inplat/mk.1.db/sql/paym.antifraud_canc-000003.sql",
+		"/var/projects/inplat/mk.1.db/versions/funcs/paym.get_sms_by_params-000003.sql",
+		"/var/projects/test.mk/test.php"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+			"/var/ssh/dev_mk1",
+			"/var/ssh/dev_mk1/inplat.subscribe",
+			"/var/ssh/dev_mk1/inplat.server",
+			"/var/ssh/dev_mk1/inplat.operator",
+			"/var/ssh/dev_mk1",
+			"/var/ssh/dev_mk1/inplat.server/scripts/application/package/sms",
+			"/var/ssh/dev_mk1",
+			"/var/ssh/dev_mk1/inplat.server",
+			"/var/ssh/dev_mk1/inplat.merchant",
+			"/var/ssh/dev_mk1/inplat.trust",
+			"/var/ssh/dev_mk1/inplat.server",
+			"/var/ssh/dev_mk1/inplat.operator",
+			"/var/ssh/dev_mk1/inplat.merchant",
+			"/var/ssh/dev_mk1/inplat.Losfw",
+			"/var/ssh/dev_mk1/inplat.server",
+			"/var/ssh/dev_mk1/inplat.merchant",
+			"/var/ssh/dev_mk1/inplat.SLL",
+			"/var/ssh/dev_mk1/inplat.Losfw",
+			"/var/ssh/dev_mk1/inplat.SLL",
+			"/var/ssh/dev_mk1/inplat.trust",
+			"/var/ssh/dev_mk1/inplat.Losfw",
+			"/var/ssh/dev_mk1/inplat.server",
+			"/var/ssh/dev_mk1/inplat.merchant",
+			"/var/ssh/dev_mk1/inplat.server",
+			"/var/ssh/dev_mk1/inplat.merchant",
+			"/var/ssh/dev_mk1/inplat.operator",
+			"/var/ssh/dev_mk1/inplat.subscribe",
+			"/var/ssh/dev_mk1/inplat.SLL",
+			"/var/ssh/dev_mk1/inplat.server",
+			"/var/ssh/dev_mk1/inplat.merchant",
+			"/var/ssh/dev_mk1/inplat.SLL",
+			"/var/ssh/dev_mk1/inplat.server",
+			"/var/ssh/dev_mk1/inplat.server/scripts",
+			"/var/ssh/dev_mk1/inplat.server/scripts/application",
+			"/var/ssh/dev_mk1/inplat.server",
+			"/var/ssh/dev_mk1/inplat.subscribe",
+			"/var/ssh/dev_mk1/inplat.server",
+			"/var/ssh/dev_mk1/inplat.subscribe",
+			"/var/ssh/dev_mk1/inplat.server",
+			"/var/ssh/dev_mk1/inplat.SLL",
+			"/var/ssh/dev_mk1/inplat.server",
+			"/var/ssh/dev_mk1/inplat.operator",
+			"/var/ssh/dev_mk1/inplat.server",
+			"/var/ssh/dev_mk1/inplat.operator",
+			"/var/ssh/dev_mk1/inplat.merchant",
+			"/var/ssh/dev_mk1/inplat.server"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"erl",
+			"винегрет",
+			"винигрет",
+			"берн",
+			"праздн",
+			"date",
+			"ssh",
+			"ObedUzhin",
+			"ssh",
+			"ssl",
+			"ssh",
+			"iiko/sync",
+			"sync",
+			"admin",
+			"test11",
+			"тест",
+			"ADP_ERR_MERC_FINAL",
+			"scp",
+			"48957bd5-8843-41f3-98f9-34fcaad69168",
+			"da25d01943de947bc451e1b55097a4a6f0d241fa",
+			"48957bd5-8843-41f3-98f9-34fcaad69168",
+			"1066781",
+			"GetGoodsData",
+			"interval",
+			"GetGoodsData",
+			"interval",
+			"scp",
+			"statsd",
+			"548818742792597373",
+			"params->balance",
+			"InitError",
+			"balance",
+			"check_balance",
+			"InitRegisteredPayment",
+			"ADP_ERR_LIMITS_MAX",
+			"observer2.requests",
+			"--EXECUTE",
+			">>>",
+			"throw_answer",
+			"start",
+			"disable_reactive",
+			"disable_reacti",
+			"subscribe_data",
+			"subsc_data_need_send",
+			"activate",
+			"prov_paym_id",
+			"RefundPayment",
+			"vas",
+			"sum_init",
+			"init_sum",
+			"10168",
+			"oper_id_",
+			"aocFirstAnswer",
+			"checkAocFirstOnInit",
+			"sms\\AocFirstService",
+			"get_last_astamp",
+			"is_init_by_merc_",
+			"AddTaskCancel",
+			"checkAocFirstOnInitRequest",
+			"is_aoc_accepted",
+			"643",
+			"exptected_system_errors",
+			"ADP_ERR_OPERATOR_CANCELLED_PAYMENT",
+			"CURRENCY",
+			"pid",
+			"NULL",
+			"cfg",
+			"load",
+			"ADP_ERR_WAIT_FOR_INIT_END",
+			"ADP_ERR_INVALID_REQUEST_CONDITIONS",
+			"ADP_ERR_SYSTEM_ERROR",
+			"ADP_ERR_USR_BREAK",
+			"ADP_ERR_USR_REQ_LIMIT",
+			"OPER_ERR_TEMPORARY_ERROR",
+			"recognizerStr",
+			"Result",
+			"Collect",
+			"DB_CHECK_QUERY",
+			"Collect",
+			"self::$id = ",
+			"self::$id = $res[ 'id_' ];",
+			"TrustConfirmation",
+			"identify",
+			"$throw_error",
+			"result",
+			"NULL",
+			"PP",
+			"Result",
+			"\"",
+			"ADP_OPERATOR_M_M_ID",
+			"getError",
+			"curl_error",
+			"timeout",
+			"setTimeout",
+			"Reult",
+			"Accept",
+			"PP",
+			"TrustResultRequest",
+			"Answer",
+			"write_sequence",
+			"$throw",
+			"SubscribeStart",
+			"PayerSMSDispatch",
+			"$s",
+			"TrustResult",
+			"2911",
+			"icheck",
+			"icheck_default",
+			"$icheck_default",
+			"icheck",
+			"ok_answer",
+			"tele",
+			"SmartpayRechargeNotify",
+			"Close",
+			"forced",
+			"Answer",
+			"askChooseTakeCard",
+			"translate_legalstatus",
+			"inplat_vasmedia_code",
+			"vasmedia_rev_aliases",
+			"ADP_ERR_MSISDN_LOW_INTERVAL_PAYMENT",
+			"10167",
+			"failure_answer",
+			"RejectPayRequest",
+			"StubCasperCancellation",
+			"profile",
+			"set_merc_data",
+			"ADP_ERR_MSG_MSISDN_LOW_INTERVAL_PAYMENT"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"\\\\\"",
+			"\\\"",
+			"\"",
+			"\\\"",
+			"\\\"\n",
+			"\n",
+			"','",
+			"\n\n','",
+			"\n\n', '",
+			"\n\n",
+			"\\n",
+			"http://soap.test.local/test/",
+			"\\\"",
+			"\\",
+			".",
+			"",
+			".",
+			">",
+			"<",
+			">",
+			"<",
+			"\"",
+			"cpa_report_payments2",
+			"\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "phoenix_tests_hello.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 392.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

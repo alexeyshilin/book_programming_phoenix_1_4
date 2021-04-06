@@ -1,0 +1,103 @@
+
+====================================================================================================
+
+/usr/local/share/libs/elixir-1.11.4/bin/mix test test/hello_web
+
+/usr/local/share/libs/elixir-1.11.4/bin/mix test test/hello_web --only login_as
+
+mix test test/hello_web/controllers/auth_test.exs
+
+
+
+====================================================================================================
+
+/usr/local/share/libs/elixir-1.11.4/bin/mix ecto.migrate
+
+mix ecto.rollback --step 1
+
+====================================================================================================
+
+iex> alias Ecto.Changeset
+iex> alias Rumbl.Repo
+iex> user = Rumbl.Accounts.get_user_by(username: "josevalim")
+%Rumbl.Accounts.User{...}
+iex> changeset =
+...>
+video |> Changeset.change() |> Changeset.put_assoc(:user, user)
+#Ecto.Changeset<...>
+iex> video = Repo.update!(changeset)
+%Rumbl.Multimedia.Video{...}
+iex> video.user
+%Rumbl.Accounts.User{username: "josevalim"}
+
+...
+
+iex> video = \
+...> video \
+...> |> Changeset.change() \
+...> |> Changeset.put_change(:user_id, user.id) \
+...> |> Repo.update!()
+
+%Rumbl.Multimedia.Video{}
+
+
+iex> video = Repo.get(Rumbl.Multimedia.Video, video.id)
+%Rumbl.Multimedia.Video{
+...,
+user: #Ecto.Association.NotLoaded<association :user is not loaded>,
+}
+iex> video = Repo.preload(video, :user)
+%Rumbl.Multimedia.Video{
+...,
+user: %Rumbl.Accounts.User{username: "josevalim"}
+user_id: 1
+}
+
+...
+
+iex> query = Ecto.assoc(video, :user)
+#Ecto.Query<...>
+iex> Repo.one(query)
+%Rumbl.Accounts.User{username: "josevalim"}
+
+...
+
+iex> query = Ecto.assoc(video, :user)
+#Ecto.Query<...>
+iex> Repo.one(query)
+%Rumbl.Accounts.User{username: "josevalim"}
+
+...
+
+====================================================================================================
+
+alias Hello.Accounts.User
+alias HelloWeb.Router.Helpers, as: Routes
+
+changeset = User.registration_changeset(%User{}, %{username: "max", name: "Max", password: "123"})
+changeset.changes %{name: "Max", username: "max", password: "123"}
+changeset.changes %{name: "Max", username: "max", password: "asecret1111"}
+
+changeset.valid?
+
+
+changeset.changes %{name: "Max", username: "max", password: "asecret", password_hash: "$pbkdf2-sha512$r7zRM4aQgSUGlOy4483cFe1UouMC/9emcOI75MhgDQ6A9WNWBpfr."}
+
+recompile()
+
+
+alias Hello.Repo
+for u <- Repo.all(User) do
+Repo.update!(User.registration_changeset(u, %{password: "temppass"}))
+end
+
+
+====================================================================================================
+
+/usr/local/share/libs/elixir-1.11.4/bin/mix phx.server
+
+MIX_ENV=prod /usr/local/share/libs/elixir-1.11.4/bin/mix phx.server
+
+/usr/local/share/libs/elixir-1.11.4/bin/iex -S mix phx.server
+
+====================================================================================================
