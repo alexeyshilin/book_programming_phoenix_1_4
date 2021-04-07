@@ -39,6 +39,8 @@ defmodule HelloWeb.Router do
 
     resources "/videos", VideoController
 
+    get "/watch/:id", WatchController, :show
+
     get "/", PageController, :index
   end
 
