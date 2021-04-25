@@ -6,9 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Hello · Phoenix Framework!</title>
     <link rel="stylesheet" href="<%= Routes.static_path(@conn, "/css/app.css") %>"/>
+    <!-- script defer type="text/javascript" src="<%= Routes.static_path(@conn, "/js/tmp.js") %>"></script -->
     <script defer type="text/javascript" src="<%= Routes.static_path(@conn, "/js/app.js") %>"></script>
   </head>
   <body>
+<script defer type="text/javascript" src_="">
+console.log("test js")
+</script>
     <header>
       <section class="container">
       <!--

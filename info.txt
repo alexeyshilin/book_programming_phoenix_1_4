@@ -1,6 +1,10 @@
 
 ====================================================================================================
 
+export PATH="$PATH:/usr/local/share/libs/elixir-1.11.4/bin"
+
+====================================================================================================
+
 /usr/local/share/libs/elixir-1.11.4/bin/mix test test/hello_web
 
 /usr/local/share/libs/elixir-1.11.4/bin/mix test test/hello_web --only login_as
