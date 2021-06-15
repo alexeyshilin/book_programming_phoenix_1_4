@@ -1,6 +1,21 @@
 
 ====================================================================================================
 
+http://localhost:4000/hello/
+http://localhost:4000/hello/someusername1/
+
+http://localhost:4000/users/
+http://localhost:4000/users/new
+http://localhost:4000/users/7
+
+http://localhost:4000/manage/videos
+
+http://localhost:4000/videos
+http://localhost:4000/videos/new
+http://localhost:4000/videos/1
+
+====================================================================================================
+
 npm i -g webpack webpack-cli
 
 $ webpack
