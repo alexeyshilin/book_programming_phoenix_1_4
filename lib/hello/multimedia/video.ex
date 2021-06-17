@@ -13,6 +13,8 @@ defmodule Hello.Multimedia.Video do
     belongs_to :category, Hello.Multimedia.Category
     field :slug, :string
 
+    has_many :annotations, Rumbl.Multimedia.Annotation
+
     timestamps()
   end
 

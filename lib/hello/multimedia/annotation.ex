@@ -6,8 +6,10 @@ defmodule Hello.Multimedia.Annotation do
   schema "annotations" do
     field :at, :integer
     field :body, :string
-    field :user_id, :id
-    field :video_id, :id
+    #field :user_id, :id
+    #field :video_id, :id
+    belongs_to :user, Hello.Accounts.User
+    belongs_to :video, Hello.Multimedia.Video
 
     timestamps()
   end
