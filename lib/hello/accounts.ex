@@ -61,6 +61,12 @@ end
 
 	end
 
+  import Ecto.Query
+
+  def list_users_with_ids(ids) do
+    Repo.all(from(u in User, where: u.id in ^ids))
+  end
+
 # /module
 end
 
