@@ -7,6 +7,7 @@ defmodule HelloWeb.VideoChannel do
   alias HelloWeb.AnnotationView
 
   def join("videos:" <> video_id, params, socket) do
+    send(self(), :after_join) # will be handled by handle_info
     last_seen_id = params["last_seen_id"] || 0
     video_id = String.to_integer(video_id)
     video = Multimedia.get_video!(video_id)
@@ -25,6 +26,15 @@ defmodule HelloWeb.VideoChannel do
 #
 #		{:noreply, assign(socket, :count, count + 1)}
 #	end
+
+  def handle_info(:after_join, socket) do 
+    push(socket, "presence_state", HelloWeb.Presence.list(socket))
+    {:ok, _} = HelloWeb.Presence.track(
+      socket, 
+      socket.assigns.user_id, 
+      %{device: "browser"})
+    {:noreply, socket}
+  end
 
   def handle_in(event, params, socket) do 
     user = Accounts.get_user!(socket.assigns.user_id)
