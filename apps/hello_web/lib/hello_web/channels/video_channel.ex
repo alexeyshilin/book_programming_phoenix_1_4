@@ -12,10 +12,14 @@ defmodule HelloWeb.VideoChannel do
     video_id = String.to_integer(video_id)
     video = Multimedia.get_video!(video_id)
 
+    annotations = []
+
     annotations =
       video
       |> Multimedia.list_annotations(last_seen_id)
       |> Phoenix.View.render_many(AnnotationView, "annotation.json")
+
+      IO.puts "annotations"
 
     {:ok, %{annotations: annotations}, assign(socket, :video_id, video_id)}
   end

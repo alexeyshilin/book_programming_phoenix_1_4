@@ -62,10 +62,10 @@ let Video = {
 //      .receive("ok", resp => console.log("joined the video channel", resp) )
       .receive("ok", ({annotations}) => {
         //annotations.forEach( ann => this.renderAnnotation(msgContainer, ann) )
-
-        let ids = resp.annotations.map(ann => ann.id)
+//console.log(annotations)
+        let ids = annotations.map(ann => ann.id)
         if(ids.length > 0){ lastSeenId = Math.max(...ids) }
-        this.scheduleMessages(msgContainer, resp.annotations)
+        this.scheduleMessages(msgContainer, annotations)
       })
       .receive("error", reason => console.log("join failed", reason) ) 
 
