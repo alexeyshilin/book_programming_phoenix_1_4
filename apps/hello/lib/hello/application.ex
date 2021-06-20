@@ -7,12 +7,14 @@ defmodule Hello.Application do
 
   def start(_type, _args) do
     children = [
-      # Start the Ecto repository
-      Hello.Repo,
-      # Start the PubSub system
-      {Phoenix.PubSub, name: Hello.PubSub}
-      # Start a worker by calling: Hello.Worker.start_link(arg)
-      # {Hello.Worker, arg}
+#      # Start the Ecto repository
+#      Hello.Repo,
+#      # Start the PubSub system
+#      {Phoenix.PubSub, name: Hello.PubSub}
+#      # Start a worker by calling: Hello.Worker.start_link(arg)
+#      # {Hello.Worker, arg}
+
+        Hello.Repo
     ]
 
     Supervisor.start_link(children, strategy: :one_for_one, name: Hello.Supervisor)
