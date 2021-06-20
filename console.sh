@@ -34,3 +34,7 @@ cp -R hello/assets/css hello_umbrella/apps/hello_web/assets/
 
 cd ./hello_umbrella
 mix deps.get
+
+
+MIX_ENV=dev /usr/local/share/libs/elixir-1.11.4/bin/mix phx.server
+
