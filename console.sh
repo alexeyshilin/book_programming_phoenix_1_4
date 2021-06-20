@@ -38,3 +38,5 @@ mix deps.get
 
 MIX_ENV=dev /usr/local/share/libs/elixir-1.11.4/bin/mix phx.server
 
+MIX_ENV=dev /usr/local/share/libs/elixir-1.11.4/bin/mix test
+sudo PATH="$PATH:/usr/local/share/libs/elixir-1.11.4/bin" MIX_ENV=test SECRET=some /usr/local/share/libs/elixir-1.11.4/bin/mix test
