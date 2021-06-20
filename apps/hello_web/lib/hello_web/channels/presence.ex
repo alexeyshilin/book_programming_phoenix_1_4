@@ -5,8 +5,8 @@ defmodule HelloWeb.Presence do
   See the [`Phoenix.Presence`](http://hexdocs.pm/phoenix/Phoenix.Presence.html)
   docs for more details.
   """
-  use Phoenix.Presence, otp_app: :hello,
-                        pubsub_server: Hello.PubSub
+  use Phoenix.Presence, otp_app: :hello_web,
+                        pubsub_server: HelloWeb.PubSub
 
   def fetch(_topic, entries) do
     users =

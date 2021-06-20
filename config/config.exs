@@ -22,7 +22,7 @@ config :hello_web, HelloWeb.Endpoint,
   url: [host: "localhost"],
   secret_key_base: "A6igxP9rBapEI2U6Y22HPcJFyoFvC4MZoLJ6CHLYhRvR9E2aTYjuxGvdfx0YQikX",
   render_errors: [view: HelloWeb.ErrorView, accepts: ~w(html json), layout: false],
-  pubsub_server: Hello.PubSub,
+  pubsub_server: HelloWeb.PubSub,
   live_view: [signing_salt: "9G7Lv9l6"]
 
 # Configures Elixir's Logger

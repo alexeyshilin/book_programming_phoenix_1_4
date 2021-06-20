@@ -7,12 +7,27 @@ defmodule HelloWeb.Application do
 
   def start(_type, _args) do
     children = [
-      # Start the Telemetry supervisor
-      HelloWeb.Telemetry,
-      # Start the Endpoint (http/https)
-      HelloWeb.Endpoint
-      # Start a worker by calling: HelloWeb.Worker.start_link(arg)
-      # {HelloWeb.Worker, arg}
+#      # Start the Telemetry supervisor
+#      HelloWeb.Telemetry,
+#      # Start the Endpoint (http/https)
+#      HelloWeb.Endpoint
+#      # Start a worker by calling: HelloWeb.Worker.start_link(arg)
+#      # {HelloWeb.Worker, arg}
+
+#       HelloWeb.Endpoint
+
+#      HelloWeb.Telemetry,
+#      HelloWeb.Endpoint,
+#      {Phoenix.PubSub, name: HelloWeb.PubSub, adapter: Phoenix.PubSub.PG2},
+#      HelloWeb.Presence
+
+
+      Hello.Repo,
+
+      HelloWeb.Endpoint,
+      {Phoenix.PubSub, name: HelloWeb.PubSub},
+      HelloWeb.Presence
+
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html

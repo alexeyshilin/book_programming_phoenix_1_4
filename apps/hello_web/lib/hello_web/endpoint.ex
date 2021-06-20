@@ -1,5 +1,5 @@
 defmodule HelloWeb.Endpoint do
-  use Phoenix.Endpoint, otp_app: :hello
+  use Phoenix.Endpoint, otp_app: :hello_web
 
   # The session will be stored in the cookie and signed,
   # this means its contents can be read but not tampered with.
@@ -22,7 +22,7 @@ defmodule HelloWeb.Endpoint do
   # when deploying your static files in production.
   plug Plug.Static,
     at: "/",
-    from: :hello,
+    from: :hello_web,
     gzip: false,
     only: ~w(css fonts images js favicon.ico robots.txt)
 
