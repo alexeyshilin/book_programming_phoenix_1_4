@@ -1,4 +1,0 @@
-<h1>From template: Hello <%= @name %>!</h1>
-<h1>Hello <%= String.capitalize(@name) %>!</h1>
-<h1>Hello <%= String.upcase(@name) %>!</h1>
-<h1>Hello <%= String.downcase(@name) %>!</h1>
