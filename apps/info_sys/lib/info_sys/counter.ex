@@ -60,3 +60,12 @@ end
 # iex> Counter.val(counter)
 # iex> Counter.dec(counter)
 # iex> Counter.val(counter)
+
+# iex -S mix
+# import Agent
+# {:ok, agent} = start_link(fn -> 5 end)
+# update(agent, &(&1 + 1))
+# get(agent, &(&1))
+# stop(agent)
+
+
