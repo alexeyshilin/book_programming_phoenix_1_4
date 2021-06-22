@@ -1,6 +1,6 @@
 
 defmodule InfoSys.Counter do
-  use GenServer
+  use GenServer, restart: :permanent
 
   def inc(pid), do: GenServer.cast(pid, :inc) 
 
@@ -38,6 +38,7 @@ defmodule InfoSys.Counter do
   def handle_call(:val, _from, val) do 
     {:reply, val, val}
   end
+
 end
 
 # iex -S mix
