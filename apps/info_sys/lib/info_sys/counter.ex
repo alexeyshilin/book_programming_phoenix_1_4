@@ -1,6 +1,7 @@
 
 defmodule InfoSys.Counter do
   use GenServer
+#  use GenServer, restart: :permanent
 
   def inc(pid), do: GenServer.cast(pid, :inc) 
 
@@ -39,15 +40,15 @@ defmodule InfoSys.Counter do
     {:reply, val, val}
   end
 
-  def child_spec(arg) do
-    %{
-      id: __MODULE__,
-      start: { __MODULE__, :start_link, [arg]},
-      restart: :temporary,
-      shutdown: 5000,
-      type: :worker
-    }
-  end
+#  def child_spec(arg) do
+#    %{
+#      id: __MODULE__,
+#      start: { __MODULE__, :start_link, [arg]},
+#      restart: :temporary,
+#      shutdown: 5000,
+#      type: :worker
+#    }
+#  end
 
 end
 
