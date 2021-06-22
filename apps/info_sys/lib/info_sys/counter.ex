@@ -39,6 +39,16 @@ defmodule InfoSys.Counter do
     {:reply, val, val}
   end
 
+  def child_spec(arg) do
+    %{
+      id: __MODULE__,
+      start: { __MODULE__, :start_link, [arg]},
+      restart: :temporary,
+      shutdown: 5000,
+      type: :worker
+    }
+  end
+
 end
 
 # iex -S mix
