@@ -13,9 +13,9 @@ defmodule InfoSys.Application do
 
       #Supervisor.child_spec({InfoSys.Counter, 5}, restart: :temporary)
 
-      {InfoSys.Counter, 15},
-      {InfoSys.Counter, 5},
-      {InfoSys.Counter, 10},
+      Supervisor.child_spec({InfoSys.Counter, 15}, id: :long),
+      Supervisor.child_spec({InfoSys.Counter, 5}, id: :short),
+      Supervisor.child_spec({InfoSys.Counter, 10}, id: :medium)
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
