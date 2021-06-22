@@ -68,4 +68,12 @@ end
 # get(agent, &(&1))
 # stop(agent)
 
+# iex -S mix
+# import Agent
+# {:ok, agent} = start_link(fn -> 5 end, name: MyAgent)
+# update(MyAgent, &(&1 + 1))
+# get(MyAgent, &(&1))
+# stop(MyAgent)
+# {:ok, agent} = start_link(fn -> 5 end, name: MyAgent)
+# {:ok, agent} = start_link fn -> 5 end, name: MyAgent)
 
