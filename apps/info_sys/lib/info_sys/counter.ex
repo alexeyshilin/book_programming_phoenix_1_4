@@ -14,8 +14,15 @@ defmodule InfoSys.Counter do
     GenServer.start_link(__MODULE__, initial_val) 
   end
 
-  def init(initial_val) do 
+  def init(initial_val) do
+    Process.send_after(self(), :tick, 1000)
     {:ok, initial_val}
+  end
+
+  def handle_info(:tick, val) do
+    IO.puts("tick #{val}")
+    Process.send_after(self(), :tick, 1000)
+    {:noreply, val - 1}
   end
 
   def handle_cast(:inc, val) do 
