@@ -17,9 +17,16 @@ defmodule InfoSys.Cache do
     GenServer.start_link(__MODULE__, opts, name: opts[:name])
   end
 
+  @clear_interval :timer.seconds(60)
+
   def init(opts) do
-    new_table(opts[:name])
-    {:ok, %{}}
+    state = %{
+      interval: opts[:clear_interval] || @clear_interval,
+      timer: nil,
+      table: new_table(opts[:name])
+    }
+
+    {:ok, schedule_clear(state)}
   end
 
   defp new_table(name) do 
@@ -33,7 +40,17 @@ defmodule InfoSys.Cache do
        write_concurrency: true])
   end
 
-  defp tab_name(name), do: :"#{name}_cache" 
+  defp tab_name(name), do: :"#{name}_cache"
+
+  def handle_info(:clear, state) do
+    :ets.delete_all_objects(state.table)
+    {:noreply, schedule_clear(state)}
+  end
+
+  defp schedule_clear(state) do
+    %{state | timer: Process.send_after(self(), :clear, state.interval)}
+  end
+
 end
 
 
@@ -42,3 +59,5 @@ end
 # Cache.put("one plus one?", "two")
 # Cache.fetch("one plus one?")
 # Cache.fetch("not here")
+# Process.sleep(60_000)
+# Cache.fetch("one plus one?")
