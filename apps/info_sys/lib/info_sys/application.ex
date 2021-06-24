@@ -16,6 +16,9 @@ defmodule InfoSys.Application do
 #      Supervisor.child_spec({InfoSys.Counter, 15}, id: :long),
 #      Supervisor.child_spec({InfoSys.Counter, 5}, id: :short),
 #      Supervisor.child_spec({InfoSys.Counter, 10}, id: :medium)
+
+      InfoSys.Cache,
+      {Task.Supervisor, name: InfoSys.TaskSupervisor},
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
