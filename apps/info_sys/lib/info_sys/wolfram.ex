@@ -48,4 +48,7 @@ end
 # InfoSys.compute("what is firebird?")
 # flush()
 
-
+# MIX_ENV=dev WOLFRAM_APP_ID=test /usr/local/share/libs/elixir-1.11.4/bin/iex -S mix
+# pid = spawn(fn -> :ok end)
+# Process.monitor(pid)
+# flush()
