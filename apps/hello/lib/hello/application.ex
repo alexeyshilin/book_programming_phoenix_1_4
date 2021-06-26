@@ -19,6 +19,8 @@ defmodule Hello.Application do
 #      # {Hello.Worker, arg}
 #
 #      HelloWeb.Presence
+
+       Hello.Repo
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
