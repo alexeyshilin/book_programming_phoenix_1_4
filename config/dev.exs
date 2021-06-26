@@ -9,6 +9,7 @@ config :hello, Hello.Repo,
   show_sensitive_data_on_connection_error: true,
   pool_size: 10
 
+
 # For development, we disable any cache and enable
 # debugging and code reloading.
 #
@@ -74,3 +75,13 @@ config :phoenix, :plug_init_mode, :runtime
 # Set a higher stacktrace during development. Avoid configuring such
 # in production as building large stacktraces may be expensive.
 config :phoenix, :stacktrace_depth, 20
+
+
+wolfram_app_id =
+System.get_env("WOLFRAM_APP_ID") ||
+raise """
+environment variable WOLFRAM_APP_ID is missing.
+"""
+
+config :info_sys, :wolfram, app_id: wolfram_app_id
+
