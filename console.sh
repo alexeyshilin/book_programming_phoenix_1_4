@@ -47,3 +47,8 @@ cd info_sys
 
 touch lib/info_sys/counter.ex
 
+MIX_ENV=dev WOLFRAM_APP_ID=test /usr/local/share/libs/elixir-1.11.4/bin/mix deps.get
+MIX_ENV=dev WOLFRAM_APP_ID=test /usr/local/share/libs/elixir-1.11.4/bin/mix phx.server
+
+## add annotation: what is the nearest star to Earth? 
+## add annotation: what is the meaning of life?

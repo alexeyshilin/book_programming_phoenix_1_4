@@ -20,7 +20,7 @@ defmodule Hello.Application do
 #
 #      HelloWeb.Presence
 
-       Hello.Repo
+#       Hello.Repo
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
