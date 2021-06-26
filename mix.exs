@@ -25,9 +25,12 @@ defmodule Hello.Umbrella.MixProject do
   # and cannot be accessed from applications inside the apps/ folder.
   defp deps do
     [
+      {:phoenix, "~> 1.5.1"},
+      {:phoenix_ecto, "~> 4.1"},
       {:ecto_sql, "~> 3.1"},
       {:postgrex, ">= 0.0.0"},
       {:pbkdf2_elixir, "~> 1.0"}
+#      {:hello_web, ">= 0.0.0"}
     ]
   end
 
