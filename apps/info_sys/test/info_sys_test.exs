@@ -34,5 +34,10 @@ defmodule InfoSysTest do
     assert results == []
   end
 
+  @tag :capture_log
+  test "compute/2 discards backend errors" do
+    assert InfoSys.compute("boom", backends: [TestBackend]) == []
+  end
+
 end
 
