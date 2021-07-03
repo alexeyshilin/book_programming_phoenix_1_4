@@ -48,6 +48,7 @@ defmodule HelloWeb.MixProject do
       {:hello, in_umbrella: true},
       {:jason, "~> 1.0"},
       {:plug_cowboy, "~> 2.0"},
+      {:pbkdf2_elixir, "~> 1.0"},
       {:info_sys, in_umbrella: true},
     ]
   end
